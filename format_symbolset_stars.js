@@ -49,4 +49,4 @@ window.format_symbolset_stars = function () {
 		}
 		
 	}
-}
+};
