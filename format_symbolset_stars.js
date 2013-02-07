@@ -3,7 +3,7 @@
 window.format_symbolset_stars = function () {
 	
 	var supported = true;
-	if(typeof Modernizr != 'undefined') { 
+	if(typeof Modernizr.fontface != 'undefined') { 
 		if(! Modernizr.fontface) { supported = false; } 
 	}
 	
