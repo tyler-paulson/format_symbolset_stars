@@ -3,9 +3,12 @@
 window.format_symbolset_stars = function () {
 	
 	var supported = true;
+	
 	if(typeof Modernizr.fontface != 'undefined') { 
 		if(! Modernizr.fontface) { supported = false; } 
 	}
+	
+	if(document.getElementsByClassName == undefined) { supported = false; }
 	
 	function conversion(html,half) {
 		var num = parseFloat(html);

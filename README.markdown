@@ -49,6 +49,8 @@ This script was developed without any involvement from SymbolSet, but I hope the
 
 The demo is just to show how the script modifies the HTML, you'll need to purchase SymbolSet Standard and load it in yourself to get the full effect :-)
 
+It uses the getElementsByClassName method, which is not available in IE8 and below.
+
 If you've got some ideas on how to make this script better, email me at [hello@tylerpaulson.com](mailto:hello@tylerpaulson.com) or send me a pull request.
 
 **Links:**
